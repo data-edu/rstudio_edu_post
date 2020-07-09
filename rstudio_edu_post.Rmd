@@ -1,0 +1,56 @@
+---
+title: "Learning More About What Readers Need (Working Title)"
+author: "Ryan Estrellado and Joshua Rosenberg"
+date: "7/9/2020"
+output: github_document
+---
+
+```{r include=FALSE}
+# Install {dataedu} package
+# devtools::install_github("data-edu/dataedu")
+```
+
+```{r load packages, include=FALSE}
+library(tidyverse)
+library(here)
+library(dataedu)
+library(knitr)
+```
+
+```{r include=FALSE}
+opts_chunk$set(echo = FALSE, message = FALSE)
+```
+
+```{r read data}
+classwork_df <-  read_csv(here::here("data", "classwork_df.csv"))
+```
+
+```{r}
+classwork_df <- classwork_df %>% 
+  # Change to factor so we can reorder later
+  mutate(classwork_number = as.factor(classwork_number)) %>% 
+  # Remove observation with missing score. Drops 1 observation
+  filter(!is.na(score))
+```
+
+```{r plot, echo=TRUE}
+# Scatterplot of continuous variable
+classwork_df %>%
+  ggplot(aes(x = reorder(classwork_number, -score, median),
+             y = score,
+             fill = classwork_number)) +
+  geom_boxplot() +
+  labs(title = "Distribution of Classwork Scores",
+       x = "Classwork",
+       y = "Scores") +
+  scale_fill_dataedu() +
+  theme_dataedu() +
+  theme(
+    # removes legend
+    legend.position = "none",
+    # angles the x axis labels
+    axis.text.x = element_text(angle = 45, hjust = 1)
+    )
+```
+
+By making the code for this plot [available](https://github.com/data-edu/rstudio_edu_post), we invite readers to tell us where we might have assumed prior knowledge. For example, a reader might tell us they need a better explanation of how `reorder()` is used to arrange the boxplots by median scores. 
