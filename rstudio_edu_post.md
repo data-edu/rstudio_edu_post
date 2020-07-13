@@ -9,24 +9,24 @@ Ryan Estrellado and Joshua Rosenberg
 When we wrote Data Science for Education Using R, we knew it would be
 easy to assume new learners would have more prior knowledge about R than
 they actually did. We knew this intuitively because, as more experienced
-R users, we only vaguely associate feelings of triumph and frustration
+R users (at this point in time!), we only vaguely associate feelings of triumph and frustration
 with the memory of running that first chunk of R code. The details of
-where we got stuck in our learning are harder to recollect. Afterall, as
+where we got stuck in our learning are harder to recollect. After all, as
 new R learners we were, as our co-author [Jesse puts
 it](https://twitter.com/kierisi/status/1100227355543359488?s=20), “going
 from using our computers for Netflix to using them for programming and
 data science.”
 
 Over time, we trade in fresh memories of our learning pain points for
-experience and ease of use. That led to a design problem we had to solve
-while writing Data Science in Education Using R: How do we write with
+experience and ease of use. That led to a design (and, we think, educational)
+problem we had to solve while writing Data Science in Education Using R: How do we write with
 empathy for new learners when our own memories about learning R have
 gotten foggier?.
 
-## Open Source Materials
+## Creating Open Source Materials as a Way to Learn From Others
 
 There are all kinds of ways to build empathy for new learners, like
-“listening” on social media, interviewing community members, and
+“listening” (you can call it lurking!) on social media, interviewing community members, and
 regularly trying to learn new things ourselves. Using open source
 materials is another approach—one that the R community and others have
 embraced. [Open source educational resources, software, and science make
@@ -80,7 +80,7 @@ classwork_df %>%
 ![](rstudio_edu_post_files/figure-gfm/plot-1.png)<!-- -->
 
 By making the code for this plot
-[available](https://github.com/data-edu/rstudio_edu_post), we invite
+[available](https://github.com/data-edu/rstudio_edu_post), we invited
 readers to tell us where we could have done more to scaffold the lesson.
 For example, a reader might tell us they need a better explanation of
 how `reorder()` is used to arrange the boxplots by median scores.
