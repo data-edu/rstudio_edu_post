@@ -4,7 +4,8 @@ Too
 Ryan Estrellado and Joshua Rosenberg
 7/9/2020
 
-![](marvin-meyer-SYTO3xs06fU-unsplash.jpg)<!-- -->
+![](marvin-meyer-SYTO3xs06fU-unsplash.jpg)<!-- --> *[Image: Marvin
+Meyer](https://unsplash.com/photos/SYTO3xs06fU)*
 
 ## Introduction
 
