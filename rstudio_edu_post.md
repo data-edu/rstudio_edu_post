@@ -104,7 +104,7 @@ Differently, sharing the code for our book empowers us to share
 conversation on social media and GitHub about how we can
 improve the book.
 
-For example, in [Chapter 8](https://datascienceineducation.com/c08.html,
+For example, in [Chapter 8](https://datascienceineducation.com/c08.html),
 we created a visualization to explore scores from student classwork assignments.
 For this post, we added `reorder()` to change the order of values in the x-axis:
 
