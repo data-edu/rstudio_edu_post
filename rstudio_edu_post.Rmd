@@ -5,7 +5,7 @@ date: "July 24, 2020"
 output: github_document
 ---
 
-```{r include=FALSE}
+```{r install dataedu, include=FALSE}
 # Install {dataedu} package
 # devtools::install_github("data-edu/dataedu")
 ```
@@ -17,7 +17,7 @@ library(dataedu)
 library(knitr)
 ```
 
-```{r include=FALSE}
+```{r set options, include=FALSE}
 opts_chunk$set(echo = FALSE, message = FALSE)
 ```
 
@@ -25,7 +25,7 @@ opts_chunk$set(echo = FALSE, message = FALSE)
 classwork_df <-  read_csv(here::here("data", "classwork_df.csv"))
 ```
 
-```{r}
+```{r clean data}
 classwork_df <- classwork_df %>% 
   # Change to factor so we can reorder later
   mutate(classwork_number = as.factor(classwork_number)) %>% 
@@ -33,7 +33,7 @@ classwork_df <- classwork_df %>%
   filter(!is.na(score))
 ```
 
-```{r}
+```{r image}
 include_graphics("marvin-meyer-SYTO3xs06fU-unsplash.jpg")
 ```
 *[Image: Marvin Meyer](https://unsplash.com/photos/SYTO3xs06fU)*
