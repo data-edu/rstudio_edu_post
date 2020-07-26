@@ -124,7 +124,7 @@ something new, the communication can also be about improving the
 learning experience.
 
 Consider a scenario where a classroom teacher asks their students to
-complete worksheets-an example of (tacitly) closed source education materials.
+complete worksheets---an example of (tacitly) closed source education materials.
 Not only do worksheets hide the underlying thinking behind their
 creation: they also invite compliance more than they invite conversation
 about what the learner needs.
@@ -184,12 +184,12 @@ When we structure our creative endeavors like a formal project---including setti
 deadline and working toward a product---we create many opportunities to
 encounter our oversights and blind spots.
 
-One way to do this is to write for an audience (of any size.). If you've written a blog or social
-media post before, you might part of the recognize the experience of doing so: As soon as you publish the
+One way to do this is to write for an audience (of any size). If you've written a blog or social
+media post before, you might recognize the experience of doing so: As soon as you publish the
 post, you find gaps (or typos!) in your writing you feel motivated to fix.
 Moreover, if you write a blog post in [R
 Markdown](https://rmarkdown.rstudio.com), the process of publishing the post
-will expose issues, warnings, or messages related to the code—--issues you may
+will expose issues, warnings, or messages related to the code---issues you may
 wish to address before (or after) publishing the post. Knowing someone will read
 your work gives that extra bit of productive pressure to offer value to your
 readers. Indeed, the audience has a role to pay in the creative process because
@@ -197,9 +197,7 @@ they aren't just reading, they're participating. Conversations can start in the
 comment section or on social media. These conversations help you learn how well
 you've connected with the audience and help you uncover what's important to your readers.
 
-Another part of structuring creative endeavors is creating opportunities to 
-review the work you've done---whether you or someone else is reviewing your work. 
-In the context of book writing, working through the copy-edits with our publisher helped (or
+Another part of structuring creative endeavors is creating opportunities to have your work reviewed, either by you or someone else. In the context of book writing, working through the copy-edits with our publisher helped (or
 forced!) us to encounter other parts of our writing we hadn't considered: We
 realized late in the process that we used both the singular and plural form of
 'data' throughout the manuscript (without expressed reasons for doing so!).
@@ -219,8 +217,8 @@ constraint." Indeed, the frequency of team calls and the commitment to revising
 and finalizing our manuscript together grew as our deadline approached. Thus,
 our publisher's deadline provided a structure that encouraged organization,
 efficient decision-making, problem-solving, and collaboration. With the deadline
-looming, we got to the essential question as quickly as possible: is what we
-wrote connecting meaningfully with the audience and if not, how can we speak to
+looming, we got to the essential question as quickly as possible: Does what we
+wrote connect meaningfully with the audience and if not, how can we speak to
 them better?
 
 ## Conclusion
@@ -232,9 +230,8 @@ in the open was a way for us to express what we've learned, but also a way for
 us to keep learning.
 
 You can reach us and our co-authors on Twitter: Emily
-[@ebovee09](https://twitter.com/ebovee09), Jesse
-[@kierisi](https://twitter.com/kierisi), Joshua
-[@jrosenberg6432](https://twitter.com/jrosenberg6432), Isabella
-[@ivelasq3](https://twitter.com/ivelasq3), Ryan
-[@RyanEs](https://twitter.com/RyanEs). 
-
+[\@ebovee09](https://twitter.com/ebovee09), Jesse
+[\@kierisi](https://twitter.com/kierisi), Joshua
+[\@jrosenberg6432](https://twitter.com/jrosenberg6432), Isabella
+[\@ivelasq3](https://twitter.com/ivelasq3), Ryan
+[\@RyanEs](https://twitter.com/RyanEs). 

@@ -10,14 +10,13 @@ Meyer](https://unsplash.com/photos/SYTO3xs06fU)*
 ## Introduction
 
 When we wrote *Data Science in Education Using R (DSIEUR)*, we knew it
-would be easy to assume new learners would have more prior knowledge
-about R than they actually did–a phenomenon economists Colin Camerer,
-George Loewenstein, and Martin Weber called “[the curse of
-knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge)”. We knew
-this intuitively as more experienced R users because we only vaguely
-associated feelings of triumph and frustration with the memory of
-running that first chunk of R code. The details of where we got stuck in
-our learning were harder to remember.
+would be easy to assume that new learners would have more prior
+knowledge about R than they actually did–a phenomenon called “[the curse
+of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge)”. We
+knew this intuitively as more experienced R users because we only
+vaguely associated feelings of triumph and frustration with the memory
+of running that first chunk of R code. The details of where we got stuck
+in our learning were harder to remember.
 
 Over time, we trade in fresh memories of these learning pain points for
 experience and ease of use. That led to a design problem we had to solve
@@ -27,40 +26,43 @@ our own memories of learning R have gotten foggier?
 To better identify with the learning experiences of others, we needed to
 identify where our blind spots were. To identify our blind spots, we
 needed strategies to empower others to give us feedback by sharing.
-Sharing with each other, with the R community, and with our publisher
-were our strategies to do just
+Bringing our strengths to this collaboration but checking that we
+understand one another’s work, writing in the open, and using a project
+workflow to support creativity were our strategies to do just
 this.
 
 ## Collaborate with people from different perspectives to help you identify your blind spots
 
-As we neared the end of writing the DSIEUR manuscript, we set out to review each
-chapter and edit it for readability. To create an opportunity for fresh
-eyes to read our work, we each reviewed a chapter we hadn’t written.
-Ryan picked chapter 13, which is on using multilevel models to analyze 
-student survey responses about their online classes. Having a new perspective
-on experiencing the chapter—particularly when the chapter includes lots
-of technical explanations—turned out to be a great way to discover blind
-spots in our work.
+As we neared the end of writing the DSIEUR manuscript, we set out to
+review each chapter and edit it for readability. To create an
+opportunity for fresh eyes to read our work, we each reviewed a chapter
+we hadn’t written. Ryan picked chapter 13, which is on using multilevel
+models to analyze student survey responses about their online classes.
+Having a new perspective on experiencing the chapter—particularly when
+the chapter includes lots of technical explanations—turned out to be a
+great way to discover blind spots in our work.
 
-Here were Ryan's thoughts after reviewing chapter 13: “I don’t use multilevel models
-regularly in my work, so I could tell right away I was going to learn
-something new. I read through the sections to make small edits, but also
-took breaks every so often to check my comprehension of the concepts.”
+Here were Ryan’s thoughts after reviewing chapter 13: “I don’t use
+multilevel models regularly in my work, so I could tell right away I was
+going to learn something new. I read through the sections to make small
+edits, but also took breaks every so often to check my comprehension of
+the concepts.”
 
-About halfway through the chapter review, we started a great, back-and-forth 
-conversation and brainstorm about conveying how standardizing
-coefficients works in multilevel models. Thinking back, we see that our
-different experiences with multilevel models were critical for
-accomplishing two things: identifying areas where the writing could be
-clearer and more accessible while staying true to the technical parts of
-the topic.
+About halfway through the chapter review, we started a great,
+back-and-forth conversation and brainstorm about conveying how
+standardizing coefficients works in multilevel models. Thinking back, we
+see that our different experiences with multilevel models were critical
+for accomplishing two things: identifying areas where the writing could
+be clearer and more accessible while staying true to the technical parts
+of the topic.
 
-We read through the chapter and picked out sections that didn’t seem clear.
-Then, we had conversations to clarify how standardizing coefficients work
-in multilevel models and wrote out some initial thoughts to try to convey 
-where we-together-ended up where it came to writing about this key part of multi-level 
-models from our conversation. Then, we read the section again. And round-and -ound we
-went, until finally we arrived at an execution we were happy with.
+We read through the chapter and picked out sections that didn’t seem
+clear. Then, we had conversations to clarify how standardizing
+coefficients work in multilevel models and wrote out some initial
+thoughts to try to convey where we-together-ended up where it came to
+writing about this key part of multi-level models from our conversation.
+Then, we read the section again. And round-and -ound we went, until
+finally we arrived at an execution we were happy with.
 
 <img src="Screen Shot 2020-07-14 at 7.32.58 AM.png" width="1496" />
 
@@ -73,7 +75,7 @@ second, a collective goal—in this case, writing a book
 together—motivated us to communicate openly and experiment with
 different ways to create a great experience for our readers.
 
-## Write in the open to get feedback from readers
+## Write and revise in the open to get feedback from readers
 
 There are all kinds of ways to build empathy for new learners, like
 “listening” on social media, interviewing members of the R community,
@@ -94,19 +96,18 @@ something new, the communication can also be about improving the
 learning experience.
 
 Consider a scenario where a classroom teacher asks their students to
-complete worksheets-an example of (tacitly) closed source education materials.
-Not only do worksheets hide the underlying thinking behind their
-creation: they also invite compliance more than they invite conversation
-about what the learner needs.
+complete worksheets—an example of (tacitly) closed source education
+materials. Not only do worksheets hide the underlying thinking behind
+their creation: they also invite compliance more than they invite
+conversation about what the learner needs.
 
-Differently, sharing the code for our book empowers us to share
-*how* we thought through an analysis. It also sets the tone for
-conversation on social media and GitHub about how we can
-improve the book.
-
-For example, in [Chapter 8](https://datascienceineducation.com/c08.html),
-we created a visualization to explore scores from student classwork assignments.
-For this post, we added `reorder()` to change the order of values in the x-axis:
+On the other hand, providing the code for our book at every stage of
+writing empowered us to share *how* we thought through an analysis. It
+also set the tone for conversation on social media platforms and GitHub
+about how we can improve the book. For example, in Chapter 8 we created
+a visualization to explore scores from student classwork assignments.
+For this post, we added `reorder()` to change the order of values in the
+x-axis:
 
 ``` r
 # Scatterplot of continuous variable
@@ -152,78 +153,58 @@ and corrected it.
 Indeed, while writing DSIEUR, sharing the book and its code led to
 [conversations](https://twitter.com/rrherr/status/1254208054008205314)
 and opportunities for improvement we might not have had if we didn’t
-write in the open.
+write in the
+open.
 
-## Tangible goals support creativity and feedback
+## Use the structure provided by a writing project to encounter blind spots
 
-When we make education materials, working toward a concrete, tangible
-product—like a book—can force us to encounter our oversights and blind
-spots.
+When we structure our creative endeavors like a formal project—including
+setting a deadline and working toward a product—we create many
+opportunities to encounter our oversights and blind spots.
 
-If you’ve written a blog or social media post before, you might
-recognize the feeling: As soon as you publish the post, you find gaps
+One way to do this is to write for an audience (of any size). If you’ve
+written a blog or social media post before, you might recognize the
+experience of doing so: As soon as you publish the post, you find gaps
 (or typos\!) in your writing you feel motivated to fix. Moreover, if you
 write a blog post in [R Markdown](https://rmarkdown.rstudio.com), the
 process of publishing the post will expose issues, warnings, or messages
-related to the code—-issues you may wish to address before (or after)
-publishing the post. 
-
-Knowing that someone will read your work gives that
+related to the code—issues you may wish to address before (or after)
+publishing the post. Knowing someone will read your work gives that
 extra bit of productive pressure to offer value to your readers. Indeed,
 the audience has a role to pay in the creative process because they
 aren’t just reading, they’re participating. Conversations can start in
 the comment section or on social media. These conversations help you
-learn how well you connected with the audience.
+learn how well you’ve connected with the audience and help you uncover
+what’s important to your readers.
 
-Publishing a book online provides many opportunities to do something similar.
-When we first published the [bookdown](https://bookdown.org) version of the book, we were so proud
-of what we created. But we also realized that parts of the book needed
-to be revised, copy-edited, and, in a few cases, written. We were
-motivated to revise the book with an urgency we likely wouldn’t have had
-if our writing remained an R Markdown document in the book’s GitHub
-repository.
-
-Working with our editor and copy-editor also brought us a new and unexpected source of
-valuable feedback. The nitty-gritty process of creating a book with a
-publisher, Routledge, provided even more opportunities to encounter our
-blind spots. At the proposal stage, we received feedback from our editor
-and reviewers; both helped us think about how we can broaden and clarify
-the audience of our book, something we might not have (formally) done on
-our own. Moreover, the publishing requirements—despite at first seeming like
-just a matter of procedure—served as an unexpected cause of improvements
-to the writing. For instance, the specifications for the delivery of our
-book required us to [standardize the levels of our
-headings](https://github.com/data-edu/data-science-in-education/issues?q=is%3Aissue+headings);
-standardizing our headings is a detail we might not have considered on
-our own.
-
-There were other examples of how the publishing process gave us a chance
-to improve the book. Working through the copy-edits with our publisher
-helped (or forced\!) us to encounter other parts of our writing we
-hadn’t considered: We realized late in the process that we used both
-the singular and plural form of “data” throughout the manuscript
-(without expressed reasons for doing so\!). Even an early [GitHub
+Another part of structuring creative endeavors is creating opportunities
+to have your work reviewed, either by you or someone else. In the
+context of book writing, working through the copy-edits with our
+publisher helped (or forced\!) us to encounter other parts of our
+writing we hadn’t considered: We realized late in the process that we
+used both the singular and plural form of ‘data’ throughout the
+manuscript (without expressed reasons for doing so\!). Even an early
+[GitHub
 issue](https://github.com/data-edu/data-science-in-education/issues/20)
 about this very topic hadn’t prompted the same level of urgency as the
 copy-edits did. While more particular than the broader blind spots
 discovered through collaboration and writing in the open, these blind
 spots are critical for creating a clear, professional, and readable book
-for the audience.
+for the audience. Whether reviewing your own work or having others
+review for you, an intentional revision process can uncover missed
+opportunities for improvements.
 
-Finally, having a deadline for the manuscript motivated us to improve
-how we communicated (and worked with) one another. In *Change By Design*, Tim Brown
-writes, “Curse deadlines all you want, but remember that time can be our
-most creative constraint.” Indeed, the frequency of team calls and the
-commitment to revising and finalizing our manuscript together grew as
-our deadline approached. Thus, our publisher’s deadline provided a
-structure that encouraged organization, efficient decision-making,
-problem-solving, and collaboration. 
-
-Working toward a concrete product, especially a book with
-particular requirements, is a way to encounter your blind spots as an
-author and raise the quality of your work. Writing for an audience in
-general, whether it be for a book or a social media post, can be an
-effective way to identify and address chances to improve your writing.
+Finally, deadlines can help. The due date for the manuscript motivated
+us to improve how we communicated with each other. In *Change By
+Design*, Tim Brown writes, “Curse deadlines all you want, but remember
+that time can be our most creative constraint.” Indeed, the frequency of
+team calls and the commitment to revising and finalizing our manuscript
+together grew as our deadline approached. Thus, our publisher’s deadline
+provided a structure that encouraged organization, efficient
+decision-making, problem-solving, and collaboration. With the deadline
+looming, we got to the essential question as quickly as possible: Does
+what we wrote connect meaningfully with the audience and if not, how can
+we speak to them better?
 
 ## Conclusion
 
