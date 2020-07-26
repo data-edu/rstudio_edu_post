@@ -18,7 +18,7 @@ vaguely associated feelings of triumph and frustration with the memory
 of running that first chunk of R code. The details of where we got stuck
 in our learning were harder to remember.
 
-Over time, we trade in fresh memories of these learning pain points for
+Over time, we traded in fresh memories of these learning pain points for
 experience and ease of use. That led to a design problem we had to solve
 while writing DSIEUR: How do we write with empathy for new learners when
 our own memories of learning R have gotten foggier?
@@ -53,16 +53,15 @@ back-and-forth conversation and brainstorm about conveying how
 standardizing coefficients works in multilevel models. Thinking back, we
 see that our different experiences with multilevel models were critical
 for accomplishing two things: identifying areas where the writing could
-be clearer and more accessible while staying true to the technical parts
-of the topic.
+be clearer and more accessible and also staying true to the technical
+parts of the topic.
 
 We read through the chapter and picked out sections that didn’t seem
 clear. Then, we had conversations to clarify how standardizing
-coefficients work in multilevel models and wrote out some initial
-thoughts to try to convey where we-together-ended up where it came to
-writing about this key part of multi-level models from our conversation.
-Then, we read the section again. And round-and -ound we went, until
-finally we arrived at an execution we were happy with.
+coefficients work in multilevel models. We wrote out some initial
+thoughts to convey where we-together-ended up in our conversation. Then,
+we read the section again. And round and round we went, until finally we
+arrived at an execution we were happy with.
 
 <img src="Screen Shot 2020-07-14 at 7.32.58 AM.png" width="1496" />
 
@@ -178,7 +177,7 @@ learn how well you’ve connected with the audience and help you uncover
 what’s important to your readers.
 
 Another part of structuring creative endeavors is creating opportunities
-to have your work reviewed, either by you or someone else. In the
+to have your work reviewed, either by you or by someone else. In the
 context of book writing, working through the copy-edits with our
 publisher helped (or forced\!) us to encounter other parts of our
 writing we hadn’t considered: We realized late in the process that we
